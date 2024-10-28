@@ -1,5 +1,5 @@
 # Python programming course repository
-
+## Author: Stefan Świerczewski
 ## Description:
 Repository contains all of the problems, materials and solutions used in the course.
 ## Overview:
