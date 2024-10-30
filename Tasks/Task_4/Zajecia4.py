@@ -122,7 +122,7 @@ list(map(lambda x: (print("Tu lambda:", x), x+1)[1], range(5)))
 # ### Ćwiczenie 2
 # Wyznacz "następny element [ciągu Collatza](https://pl.wikipedia.org/wiki/Problem_Collatza)" dla każdej z liczb z zakresu [1,20].
  #%%
-list(map(lambda c: 
+
  #%%
 # ---------------
 # 
