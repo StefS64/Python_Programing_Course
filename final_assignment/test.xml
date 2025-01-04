@@ -1,0 +1,12 @@
+<data>
+    <drug>
+        <name>Aspirin</name>
+        <description>Pain reliever and anti-inflammatory</description>
+        <category>Analgesic</category>
+    </drug>
+    <drug>
+        <name>Ibuprofen</name>
+        <description>Nonsteroidal anti-inflammatory drug</description>
+        <category>Analgesic</category>
+    </drug>
+</data>
