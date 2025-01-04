@@ -55,14 +55,14 @@ print(df.columns)
 
 # _________problem 2 functions___________
 def plot_synonym_graph(drugbank_id, synonym_df):
+
     # Get row containing the id.
     row = synonym_df[synonym_df['drugbank-id'].apply(lambda x: drugbank_id in x)]
     
     if not row.empty:
         synonyms = row['synonyms'].values[0][0]['synonym']
         name = row['name'].values[0][0]
-        # print("name : ", name)
-        # print("synonym : ", synonyms)
+
         # Create the graph
         G = nx.Graph()
         G.add_node(name, label=name)
@@ -164,42 +164,55 @@ def get_bipartite_pathway_graph(pathways_graph_df):
 
 
     pathway_names = sum(pathways_graph_df['name'].tolist(), [])
+    pathway_ids = sum(pathways_graph_df['smpdb-id'].tolist(), [])
     # print(pathway_names)
     B = nx.Graph()
-    B.add_nodes_from(pathway_names, bipartite=0)
+    for i in range(len(pathway_names)):
+        B.add_node(pathway_ids[i], bipartite=0, label=pathway_names[i])
 
     for _, row in pathways_graph_df.iterrows():
         name = row['name'][0]
-        # path_id = row['smpdb-id'][0]
+        path_id = row['smpdb-id'][0]
         # print(row['drugs'])
         for drug in row['drugs'][0]['drug']:
             if drug:
                 drug_name = drug['name'][0]
-                # drug_id = drug['drugbank-id'][0]
-                B.add_node(name, bipartite=1)
-                B.add_edge(name, drug_name)
+                drug_id = drug['drugbank-id'][0]
+                B.add_node(drug_id, bipartite=1, label=drug_name)
+                B.add_edge(path_id, drug_id)
     return B
 def plot_graph_bipartite_pathway(file_path):
     pathways_graph_df = get_pathway_data_frame(file_path)
     graph = get_bipartite_pathway_graph(pathways_graph_df)
 
-    pathway_names = sum(pathways_graph_df['name'].tolist(), [])
-    pos = nx.bipartite_layout(graph, pathway_names, aspect_ratio=30, scale=0.5, align='horizontal')
+    top_nodes = [n for n, d in graph.nodes(data=True) if d["bipartite"] == 1]
+    pos = nx.bipartite_layout(graph, top_nodes, aspect_ratio=30, scale=0.5, align='horizontal')
     fig = plt.figure()
     fig.canvas.manager.set_window_title("Bipartite graph drug-pathway")
-    nx.draw(graph, pos, with_labels=True, node_size=1000, node_color='skyblue', font_size=7)
+    labels = nx.get_node_attributes(graph, 'label')
+    nx.draw(graph, pos, with_labels=True, labels=labels, node_size=1000, node_color='skyblue', font_size=7)
     plt.show()
 
-plot_graph_bipartite_pathway(file_path)
+# plot_graph_bipartite_pathway(file_path)
 print("_________PROBLEM 5 END_________")
 
 print("_________PROBLEM 6 BEGIN_________")
-drug_df = read_and_get_columns(file_path, ['name', 'pathways'])
-drug_df['pathway_count'] = drug_df['pathways'].apply(lambda x: print(x[0]) )
+
+drug_df = read_and_get_columns(file_path, ['drugbank-id','name'])
+# Get the graph from last problem tha number of pathways is naturally calculated.
+pathway_graph = get_bipartite_pathway_graph(get_pathway_data_frame(file_path))
+
+drug_nodes = [n for n, d in pathway_graph.nodes(data=True) if d["bipartite"] == 1]
+# print(pathway_graph.degree())
+# print(drug_nodes)
+
+drug_df['pathway_count'] = drug_df['drugbank-id'].apply(
+    lambda x:  pathway_graph.degree(x[0]) if x[0] in drug_nodes else 0
+)
+
 print(drug_df)
 drug_df.set_index('name', inplace=True)
 # drug_pathway_counts
-# O CO CHODZI dlaczego ta baza danych nie ma relacji w obie strony!!!!
 plt.figure()
 drug_df['pathway_count'].plot(kind='bar')
 plt.xlabel('Drug Name')
