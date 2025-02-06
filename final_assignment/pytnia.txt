@@ -1,7 +1,0 @@
-# Pytania do zadanka a pytona:
-
-
-
-- zad 1 Uniklany indentyfikator leku ale ma on wiele?
-- zad 3 czy ramka ma zawierać wszystkie możliwe produkty czy tylko danego leku?
-
