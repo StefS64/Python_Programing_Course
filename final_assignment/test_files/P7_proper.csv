@@ -1,0 +1,6 @@
+Drugbank ID,Local ID,Source,External ID,Polypeptide Name,Gene Name,GenAtlas ID,Chromosome Location,Cellular Location
+"['DB00001', 'BTD00024', 'BIOD00024']",BE0000048,Swiss-Prot,P00734,Prothrombin,F2,F2,11,Secreted
+"['DB00002', 'BTD00071', 'BIOD00071']",BE0000767,Swiss-Prot,P00533,Epidermal growth factor receptor,EGFR,EGFR,7,Cell membrane
+"['DB00004', 'BTD00084', 'BIOD00084']",BE0000658,Swiss-Prot,P01589,Interleukin-2 receptor subunit alpha,IL2RA,IL2RA,10,Membrane
+"['DB00005', 'BTD00052', 'BIOD00052']",BE0000704,Swiss-Prot,P01375,Tumor necrosis factor,TNF,TNF,6,Cell membrane
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",BE0000048,Swiss-Prot,P00734,Prothrombin,F2,F2,11,Secreted

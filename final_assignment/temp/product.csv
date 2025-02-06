@@ -1,0 +1,35 @@
+drugbank-id,product-name,manufacturer,ndc,form,route,dosage,country,agency
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Angiomax,Cardinal Health,55154-2275,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Angiomax,The Medicines Company,65293-001,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Angiomax,Sandoz Inc,0781-3447,Injection,Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Angiomax,Sandoz Canada Incorporated,,"Powder, for solution",Intravenous,250 mg / vial,Canada,DPD
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Angiomax RTU,"MAIA Pharmaceuticals, Inc.",70511-141,"Injection, solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Angiox,The Medicines Company,,,Intravenous,250 mg,EU,EMA
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,"Accord Healthcare, Inc.",16729-275,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/5mL,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,Cipla USA Inc.,69097-601,Injection,Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,Mylan Institutional LLC,67457-256,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/5mL,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,Eugia US LLC,55150-210,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,Dr. Reddy's Laboratories Limited,55111-652,Injection,Intracavernous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,Sandoz Inc,0781-3158,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,Sandoz Inc,0781-9158,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,"Hainan Shuangcheng Pharmaceuticals Co., Ltd.",52958-034,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,"Athenex Pharmaceutical Division, Llc.",70860-402,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,"Fresenius Kabi USA, LLC",63323-562,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,Apotex Corp,60505-6101,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,"Hospira, Inc.",0409-8300,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,Sagent Pharmaceuticals,25021-405,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,Meitheal Pharmaceuticals Inc.,71288-427,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/5mL,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,"Civica, Inc.",72572-035,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,"Slate Run Pharmaceuticals, Llc",70436-025,"Injection, powder, lyophilized, for suspension",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,Sandoz Canada Incorporated,,"Powder, for solution",Intravenous,250 mg / vial,Canada,DPD
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,"Par Pharmaceutical, Inc.",42023-622,"Injection, solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,"Avenacy, Inc.",83634-400,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin,"Pharma Packaging Solutions, LLC dba Tjoapack LLC",75929-217,"Injection, powder, lyophilized, for solution",Intravenous,250 mg/1,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin for Injection,Fresenius Kabi,,"Powder, for solution",Intravenous,250 mg / vial,Canada,DPD
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin for Injection,Juno Pharmaceuticals Corp.,,"Powder, for solution",Intravenous,250 mg / vial,Canada,DPD
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin for Injection,Dr Reddy's Laboratories Ltd,,"Powder, for solution",Intravenous,250 mg / vial,Canada,DPD
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin for Injection,Formative Pharma Inc.,,"Powder, for solution",Intravenous,250 mg / vial,Canada,DPD
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin in 0.9% Sodium Chloride,Baxter Healthcare Corporation,0338-9572,Injection,Intravenous,250 mg/50mL,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin in 0.9% Sodium Chloride,Baxter Healthcare Corporation,0338-9576,Injection,Intravenous,500 mg/100mL,US,FDA NDC
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin Injection,Avir Pharma Inc.,,Solution,Intravenous,5 mg / mL,Canada,DPD
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",Bivalirudin RTU,"Athenex Pharmaceutical Division, Llc.",70860-403,"Injection, solution",Intravenous,5 mg/1mL,US,FDA NDC

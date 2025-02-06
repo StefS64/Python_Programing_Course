@@ -1,0 +1,7 @@
+drugbank-id,name,pathway_count
+"['DB00001', 'BTD00024', 'BIOD00024']",['Lepirudin'],1
+"['DB00002', 'BTD00071', 'BIOD00071']",['Cetuximab'],1
+"['DB00003', 'BTD00001', 'BIOD00001']",['Dornase alfa'],0
+"['DB00004', 'BTD00084', 'BIOD00084']",['Denileukin diftitox'],0
+"['DB00005', 'BTD00052', 'BIOD00052']",['Etanercept'],0
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']",['Bivalirudin'],1

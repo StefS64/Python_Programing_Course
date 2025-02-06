@@ -1,0 +1,7 @@
+drugbank-id,synonyms,name
+"['DB00001', 'BTD00024', 'BIOD00024']","[{'synonym': ['[Leu1, Thr2]-63-desulfohirudin', 'Desulfatohirudin', 'Hirudin variant-1', 'Lepirudin', 'Lepirudin recombinant', 'R-hirudin']}]",['Lepirudin']
+"['DB00002', 'BTD00071', 'BIOD00071']","[{'synonym': ['Cetuximab', 'Cétuximab', 'Cetuximabum']}]",['Cetuximab']
+"['DB00003', 'BTD00001', 'BIOD00001']","[{'synonym': ['Deoxyribonuclease (human clone 18-1 protein moiety)', 'Dornasa alfa', 'Dornase alfa', 'Dornase alfa, recombinant', 'Dornase alpha', 'Recombinant deoxyribonuclease (DNAse)']}]",['Dornase alfa']
+"['DB00004', 'BTD00084', 'BIOD00084']","[{'synonym': ['Denileukin', 'Denileukin diftitox', 'Interleukin-2/diptheria toxin fusion protein']}]",['Denileukin diftitox']
+"['DB00005', 'BTD00052', 'BIOD00052']","[{'synonym': ['Etanercept', 'etanercept-szzs', 'etanercept-ykro', 'Recombinant human TNF', 'rhu TNFR:Fc', 'rhu-TNFR:Fc', 'TNFR-Immunoadhesin']}]",['Etanercept']
+"['DB00006', 'BTD00076', 'EXPT03302', 'BIOD00076', 'DB02351']","[{'synonym': ['Bivalirudin', 'Bivalirudina', 'Bivalirudinum']}]",['Bivalirudin']
